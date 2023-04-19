@@ -12,9 +12,14 @@ public class Main {
 		curso.setCargaHoraria(8);
 		
 		Curso curso2 = new Curso ();
-		curso.setTitulo("javascrip");
-		curso.setDescricao(" descricao js");
-		curso.setCargaHoraria(4);
+		curso2.setTitulo("javascrip");
+		curso2.setDescricao(" descricao js");
+		curso2.setCargaHoraria(4);
+		
+		Curso curso3 = new Curso();
+		curso3.setTitulo("github");
+		curso3.setDescricao("mais um exemplo de curso");
+		curso3.setCargaHoraria(6);
 		
 		
 		Mentoria mentoria =new Mentoria ();
@@ -23,6 +28,8 @@ public class Main {
 		mentoria.setData(LocalDate.now());
 
 		System.out.println(curso );
+		System.out.println(curso3 );
+		System.out.println("");
 		System.out.println(curso2 );
 		System.out.println(mentoria );
 	}
